@@ -12,7 +12,7 @@ pipeline {
 			}
 			stage ('install-tree') {
 			steps {
-			sh "yum tree httpd -y"
+			sh "yum install tree -y"
 			}
 			}
 
